@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -7,7 +6,6 @@
     android:orientation="vertical"
     android:background="#FFFFFF">
 
-    <!-- Purple top bar -->
     <TextView
         android:id="@+id/topBar"
         android:layout_width="match_parent"
@@ -20,7 +18,6 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <!-- Food list -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/foodRecyclerView"
         android:layout_width="match_parent"
@@ -29,14 +26,13 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp" />
 
-    <!-- Add food button -->
     <Button
         android:id="@+id/addFoodButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"
         android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
         android:text="Add New Food"
         android:backgroundTint="#6200EE"
         android:textColor="#FFFFFF" />
